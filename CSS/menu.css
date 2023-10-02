@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+}
+
+.navbar-top{
+    padding: 15px 0px;
+    background-color: white;
+}
+
+.navbar-top li{
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+}
+
+.navbar-nav .nav-item a{
+    color: #9093A6;
+}
+
+.section-menu{
+    color:white;
+    margin-right: -50px;
+
+}
+.section-menu .flex-container .row{
+    display: flex;
+}
+.section-menu .row a{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.section-menu .row p{
+    font-size: 12px;
+}
+.dropdown-menu{
+    text-align: end;
+}
+hr {
+    border: 1px solid white;
+}

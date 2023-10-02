@@ -8,6 +8,7 @@ h1 {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
 .navbar-top{
     padding: 20px 0px;
     background-color: white;
@@ -31,15 +32,17 @@ h1 {
 }
 
 /* SECTION ADDRESS */
-/* .section-address .row form {
+.section-address .row form {
     flex: 1 1 45rem;
-   margin-left: 5rem;
-    text-align: end;
+    margin-left: 40rem;
+    text-align: center;
+    margin-top: -170px;
+    
 }
 
 .section-address .row form .input-group {
     display: flex;
-    align-items: flex-end; 
+    /* align-items: flex-end;  */
     margin-top: 2rem;
     border: 1px solid #eee ;
     padding-left: 2rem;
@@ -49,9 +52,16 @@ h1 {
     width: 30%;
     padding: 1rem;
     font-size: 1rem;
-    margin-left: 5rem;
-} */
-
+    padding-left: 15rem;
+}
+.section-address .row form button {
+    height: 30%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: -90px;
+    margin-left: 300px;
+    
+}
 /* SLICK SLIDER */
 .slick-slide {
     margin: 0px 0px;
@@ -138,7 +148,6 @@ padding-top: 50px;
 
 }
 
-
 .section-address .address-text{
     color: #3F4255;
 }
@@ -215,12 +224,132 @@ padding-top: 50px;
     display: flex;
     width: 90%;
     gap: 5px;
-    padding-top: 20px;    
+    padding-top: 20px;
+    padding-bottom: 80px;    
 
 }
 span {
     color: black;
 }
+
+/* Section End */
+.section-end {
+    display: flex;
+    background-color:#3F4255;
+    min-height: 350px;
+    padding: 50px;
+ }
+
+
+.section-end .row h4{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: -163px;
+}
+/* Thick red border */
+hr.new4 {
+    border: 1px solid white;
+    width: 80%;;
+}
+
+.section-end .row .appstore{
+    margin-top: 50px;
+   
+}
+
+.section-end .aboutus {
+    color: white;
+    margin-top: 150px;
+
+}
+.section-end .aboutus a{
+    color: white;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.section-end .gethelp{
+    color: white;
+    margin-top: 150px;
+}
+/* .section-end .gethelp h4{
+    margin-top: -10px;
+} */
+.section-end .gethelp a{
+    color:  white;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.section-end .contactus{
+    color: white;
+    margin-top: 150px;
+
+}
+.section-end .contactus p{
+    color:  white;
+    line-height: 2;
+    text-decoration: none;
+    font-weight: 300;
+}
+/* FOOTER */
+
+footer {
+    /* display: flex; */
+    padding: 1rem 0 5rem;
+    margin-top: 3rem;
+}
+
+footer .socials {
+    padding: 1rem 0;
+    margin-bottom: 50px;
+
+}
+
+footer .socials a {
+    color: #fff;
+    margin: 1rem;
+ 
+
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+    color: black;
+}
+
+footer .links {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: -20px;
+    margin-left: 500px;
+}
+footer .links a {
+    color: #fff;
+    padding: 2rem 2rem;
+    text-decoration: none;
+
+
+}
+
+footer .credit {
+    font-size: 13px;
+    text-align: end;
+    color: white;
+
+}
+
+footer .credit a {
+    color: white;
+    font-weight: 700;
+    text-align: end;
+
+} 
+
+
 
 
 @media (max-width : 768px) {
