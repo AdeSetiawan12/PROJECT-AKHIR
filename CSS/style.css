@@ -33,35 +33,44 @@ h1 {
 
 /* SECTION ADDRESS */
 .section-address .row form {
-    flex: 1 1 45rem;
+    /* flex: 1 1 45rem;
     margin-left: 40rem;
     text-align: center;
-    margin-top: -170px;
-    
+    margin-top: -170px; */
+    display: flex;
+    justify-content: flex-start;
 }
 
 .section-address .row form .input-group {
-    display: flex;
-    /* align-items: flex-end;  */
+    /* display: flex;
+    align-items: flex-end; 
     margin-top: 2rem;
     border: 1px solid #eee ;
-    padding-left: 2rem;
+    padding-left: 2rem; */
+    position: relative;
 }
 
 .section-address .row form .input-group input {
-    width: 30%;
+    width: 90%;
     padding: 1rem;
     font-size: 1rem;
-    padding-left: 15rem;
+    padding-left: 3rem;
 }
 .section-address .row form button {
-    height: 30%;
+    /* height: 30%;
     padding: 1rem;
     font-size: 1rem;
     margin-top: -90px;
-    margin-left: 300px;
-    
+    margin-left: 300px; */
+    width: 30%;
 }
+
+.section-address .row .mark{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
 /* SLICK SLIDER */
 .slick-slide {
     margin: 0px 0px;
